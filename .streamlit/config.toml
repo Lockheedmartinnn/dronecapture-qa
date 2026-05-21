@@ -1,0 +1,26 @@
+[theme]
+primaryColor = "#FF6B35"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+maxUploadSize = 200
+
+[logger]
+level = "info"
+
+[client.showErrorDetails]
+showErrorDetails = false
+
+# Increase max message size for large CSV exports
+[server]
+maxMessageSize = 200

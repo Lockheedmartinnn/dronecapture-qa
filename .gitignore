@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+env
+venv
+ENV
+env.bak
+venv.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit_cache/
+.cache/
+*.streamlit_cache
+
+# Generated reports and outputs
+capture_report.html
+capture_risk_assessment.html
+capture_summary.csv
+capture_details.csv
+training_dataset.csv
+*.html
+*.csv
+
+# Temporary files
+/tmp/
+/temp/
+*.tmp
+*.temp
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+
+# Local testing
+datasets/
+images/
+uploads/
+temp_uploads/
